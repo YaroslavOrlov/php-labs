@@ -1,0 +1,107 @@
+.calendar {
+    margin: 0 auto;
+    width: 300px;
+}
+
+.weekend, .workday {
+    color: #ff001c;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    cursor: hand;
+}
+
+.workday {
+    color: #015c0e;
+}
+
+.note {
+    border: 2px solid sienna;
+    margin: 0 auto;
+    height: 300px;
+    width: 200px;
+    background-color: darkkhaki;
+    position: relative;
+}
+
+#toggle-note {
+    display: none;
+}
+
+.add-note {
+    position: absolute;
+    border-radius: 20px 20px;
+    border: 1px solid black;
+    top: 275px;
+    left: 175px;
+}
+
+.delete-note {
+    position: absolute;
+    border-radius: 20px 20px;
+    border: 1px solid black;
+    top: 5px;
+    left: 175px;
+}
+
+.sub-btn {
+    margin-left: 160px;
+    margin-bottom:10px;
+}
+
+.notes {
+    margin-top: 45px;
+    height: 220px;
+    width: 180px;
+    margin-left: 10px;
+    position: absolute;
+    overflow: auto;
+}
+
+.text {
+    resize: none;
+    height: 70px;
+    width: 160px;
+    border: 1px solid darkorange;
+    font-style: italic;
+    font-family: cursive;
+    background-color: aliceblue;
+    margin-bottom: 20px;
+}
+
+#form-note {
+    border: 1px solid darkslategray;
+    display: none;
+}
+
+#form-note .text {
+    width: 280px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#auth-form input[type="text"]{
+    width: 305px;
+}
+
+#auth-form input[type="password"]{
+    width: 305px;
+}
+
+#auth-form{
+    width: 300px;
+    margin: 0 auto;
+}
+
+#register-form input[type="text"]{
+    width: 385px;
+}
+
+#register-form input[type="password"]{
+    width: 385px;
+}
+
+#register-form{
+    width: 300px;
+    margin: 0 auto;
+}
